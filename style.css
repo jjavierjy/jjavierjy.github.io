@@ -1,0 +1,161 @@
+        section {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .card {
+            width: 500px;
+            height: 800px;
+            background: rgba(74, 218, 194, 0.462);
+            border-radius: 20px;  /* para bordes redondeados*/
+            overflow: hidden;  /* para que lo que se salga lo oculte*/
+            position: relative;
+        } 
+        .card .head img {
+            width: 100%;  /*para qeu el gato no se salga del contenedor*/
+        }
+        .card p {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .circlePic {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            top: 250px;
+            left: 175px;
+            
+        }
+        .circlePic img {
+            width: 100%;
+            border: 5px solid rgb(31, 53, 101);
+            border-radius: 50%;
+            
+        }
+        .titulo {
+            position: absolute;
+            justify-content: center;
+            top: 420px;
+            width: 100%;
+            font-weight: bold;
+            color: rgb(31, 53, 101);
+        }
+        .titulo p {
+            margin: 0;
+        }
+        .titulo p:nth-child(1) {
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .acercaDe {
+            color: rgb(39, 88, 75);
+            position: absolute;
+            justify-content: space-between;
+            top: 450px;
+            width: 90%;
+            padding: 20px;
+        }
+        .acercaDe p {
+            text-align: justify;
+        }
+        .footerCard {
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 250px 250px;
+        }
+        .foot1 {
+            grid-column: 1/2;
+        }
+        .foot2 {
+            grid-column: 2/3;
+        }
+
+        .logro {
+            display: flex;
+            position: relative;
+        }
+
+        .logro-linea {
+            margin-left: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .bullet {
+            width: 9px;
+            height: 9px;
+            border-radius: 50%;
+            border: 3px solid rgb(31, 53, 101);
+            margin-top: 2px;
+            margin-left: 30px;
+            flex-shrink: 0;
+        }
+
+        .l-tit { 
+            color: rgb(45, 101, 86);
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+        }
+            
+        /* .l-tit::before {
+            
+            content: "●";
+            margin-right: 10px;
+        } */
+        
+        .l-desc {
+            color: rgb(31, 53, 101);
+            font-size: 12px;
+            line-height: 18px;
+            margin-left: 20px;
+            
+        }
+        /* .l-desc::before {
+            content: "║";
+            margin-right: 20px;
+        } */
+
+        .skill-title, .sm-title, .exp-title {
+            display:inline-flex;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 100%;
+            color: rgb(31, 53, 101);
+            font-size: 1.5rem;
+            line-height: 1.3;
+            font-weight: 700;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .skill-content, .sm-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+            height: 50px;
+            width: 250px;
+        }
+        .skill {
+            padding: 5px 10px;
+            color: #fff;
+            background-color: rgb(31, 53, 101);
+            font-size: .85rem;
+            border-radius: 0.75rem;
+            margin: 0 0.5rem 0.5rem 0;
+            width: fit-content;
+        }
+
+        .sm-item {
+            color: rgb(7, 195, 79);
+            font-size: 2rem;
+            margin: 0 1rem 1rem 0;
+        }
+        .sm-item a {
+            color:rgb(7, 195, 79);
+        }
+        .sm-item a:hover {
+            color:rgb(7, 195, 79);
+        }
+      
